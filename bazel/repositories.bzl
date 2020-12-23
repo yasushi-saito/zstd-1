@@ -9,9 +9,9 @@ def repositories():
         http_archive,
         name = "com_github_facebook_zstd",
 	build_file = "@com_github_cschuet_zstd//bazel/third_party:zstd.BUILD",
-        strip_prefix = "zstd-1.4.4",
-	sha256 = "a364f5162c7d1a455cc915e8e3cf5f4bd8b75d09bc0f53965b0c9ca1383c52c8",
+        strip_prefix = "zstd-1.4.8",
+	sha256 = "f176f0626cb797022fbf257c3c644d71c1c747bb74c32201f9203654da35e9fa",
         urls = [
-            "https://github.com/facebook/zstd/archive/v1.4.4.tar.gz",
+            "https://github.com/facebook/zstd/archive/v1.4.8.tar.gz",
         ],
     )
