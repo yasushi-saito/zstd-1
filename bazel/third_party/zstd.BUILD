@@ -10,6 +10,7 @@ cc_library(
     deps = [":zstd_header"],
     srcs = glob(
         [
+            "lib/*.h",
             "lib/decompress/*.c",
             "lib/decompress/*.h",
             "lib/common/*.c",
@@ -21,7 +22,7 @@ cc_library(
             "lib/compress/*.c",
             "lib/compress/*.h",
         ],
-    ) + ["lib/zstd.h"],
+    ),
 )
 
 cc_library(
